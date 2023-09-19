@@ -21,6 +21,9 @@ const config: Config = {
         "c-dark-pink": "#FF26B9",
         "c-purple": "#903AFF",
         "c-green": "#2DE100",
+      },
+      fontFamily: {
+        "montserrat": ['var(--font-montserrat)']
       }
     },
   },
