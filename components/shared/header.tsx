@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import Button from "./button"
 import Menu from "./harmburger"
@@ -12,10 +10,6 @@ const navs = [
 ]
 
 export default function Header(): JSX.Element {
-
-    function onRegisterClicked() {
-        console.log("Register")
-    }
     
     return (
         <div className="h-[71px] sm:h-[120px] lg:h-[141px] flex flex-row items-center lg:items-end pl-[54px] pr-12 xl:px-32 pb-0 sm:pb-4 lg:pb-[25px] duration-500 ease-in-out border-b border-c-border bg-transparent absolute z-10 top-0 right-0 left-0">
